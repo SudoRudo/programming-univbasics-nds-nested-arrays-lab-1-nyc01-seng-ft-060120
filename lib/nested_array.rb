@@ -17,7 +17,7 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  storage_room = CONVENTIONAL_PRODUCE.concat ORGANIC_PRODUCE
+  assembled_matrix = [["#{CONVENTIONAL_PRODUCE}"],["#{ORGANIC_PRODUCE}"]]
 end
 
 def sorted_matrix
